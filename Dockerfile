@@ -1,6 +1,7 @@
 FROM openjdk:jdk
 
 RUN mkdir /app
+VOLUME /app
 WORKDIR /app
 
 RUN wget http://downloads.lightbend.com/scala/2.11.8/scala-2.11.8.tgz
